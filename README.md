@@ -1,4 +1,4 @@
-# Police Dataset Analysis
+# Police Dataset Analysis Project
 
 This project provides a comprehensive analysis of a police stop dataset using Python and Pandas. The primary goal is to clean, transform, and explore the data to uncover patterns and insights related to law enforcement activities.
 
