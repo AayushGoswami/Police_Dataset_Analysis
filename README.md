@@ -1,28 +1,32 @@
-# Police_Dataset_Analysis
-The Police Dataset Analysis project utilizes Python and Pandas to process and analyze a dataset related to police activities. The project focuses on data cleaning, transformation, and extracting insights to understand patterns in law enforcement operations.
+# Police Dataset Analysis
 
-**Features**
+This project provides a comprehensive analysis of a police stop dataset using Python and Pandas. The primary goal is to clean, transform, and explore the data to uncover patterns and insights related to law enforcement activities.
 
-Data Cleaning: Handling missing values and dropping unnecessary columns.
+## Project Overview
 
-Data Transformation: Converting data types and standardizing formats.
+- **Data Cleaning:** Handles missing values and removes columns with only null values to ensure data quality.
+- **Data Transformation:** Standardizes and converts data types, including mapping categorical durations to numeric values for analysis.
+- **Exploratory Data Analysis (EDA):** Examines trends such as the frequency of stops by gender, the impact of gender on search likelihood, and the distribution of stop durations.
+- **Statistical Analysis:** Calculates descriptive statistics (mean, value counts, etc.) for key variables, including stop duration and driver age by violation type.
 
-Exploratory Data Analysis (EDA): Identifying trends and patterns in police activities.
+## Technologies Used
 
-Statistical Analysis: Calculating key metrics such as mean, median, and standard deviation.
+- **Python:** Core programming language for data analysis.
+- **Pandas:** Library for data manipulation and cleaning.
+- **Jupyter Notebook:** Interactive environment for step-by-step analysis and visualization.
 
-**Technologies Used**
+## How to Use
 
-Python (for data processing and analysis)
+1. Ensure the dataset file (`Police dataset.csv`) is present in the project directory.
+2. Open `Police_Dataset_Analysis.ipynb` in Jupyter Notebook or Visual Studio Code.
+3. Run the notebook cells in order to perform data cleaning, transformation, and analysis.
 
-Pandas (for data manipulation and cleaning)
+## Future Enhancements
 
-Jupyter Notebook (for interactive development and visualization)
+- Integrate machine learning models for predictive analytics.
+- Develop interactive dashboards using visualization tools such as Power BI or Metabase.
+- Expand the dataset for broader and deeper insights.
 
-**Future Improvements**
+## License
 
-Implementing machine learning models for predictive analysis.
-
-Creating interactive dashboards using Power BI or Metabase.
-
-Expanding dataset coverage for deeper insights.
+This project is intended for educational and analytical purposes only.
